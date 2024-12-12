@@ -1,0 +1,148 @@
+body {
+	margin: 10px;
+	font-family: Arial, sans-serif;
+	background: #222222;
+}
+.navbar{
+	margin: 0;
+	padding: 20px 30px;
+}
+ 
+.logo{
+	font-size: 14pt;
+	text-decoration: none;
+	color: rgb(240, 240, 240);
+}
+ 
+.container{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+ 
+.tombol{
+	display: none;
+	color: white;
+	font-size: 14pt;			
+}
+ 
+.tombol:hover{
+	cursor: pointer;
+}
+ 
+.menu{
+    color: rgb(240, 240, 240);
+	margin: 0;
+	display: flex;
+	list-style: none;
+	padding: 0;
+    cursor: pointer;	
+}
+ 
+.menu li{
+	padding-left: 0;
+	margin-right: 10px;
+}
+ 
+.menu li a{
+	padding:10px;
+	color: white;
+	text-decoration: none;
+	display: inline-block;
+}
+
+.content{
+    color: whitesmoke;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content a{
+    text-decoration: none;
+    color: coral;
+    font-size: 25px;
+}
+.content p{
+    text-align: center;
+}
+hr{
+    margin-top: 50px;
+}
+.list-genre ul{
+    list-style: none;
+}
+.list-genre ul li{
+    display: inline-block;
+    margin: 5px;
+    color: #949494;
+}
+.content img{
+    box-shadow: inset;
+    font-family: sans-serif;
+    z-index: -3;
+    width: 150px;
+    height: 150px;
+}
+.list-box{
+    text-align: center;
+}
+.box{
+    width: 200px;
+    height: auto;
+    background-color: rgb(245, 245, 245);
+    display: inline-block;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 15px;
+}
+.box img{
+    border-radius: 15px;
+    width: 200px;
+    height: 70px;
+    margin-bottom: -10px;
+}
+.box p{
+    color: rgb(32, 32, 32);
+    font-size: 10px;
+    text-align: left;
+}
+.box h5{
+    font-family: arial black;
+    color: rgb(12, 12, 12);
+    text-align: left;
+    margin-bottom: -5px;
+}
+
+.number-list{
+    text-align: center;
+    margin-left: -50px;
+    cursor: pointer;
+
+}
+.number-list ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 5px;
+    color: #949494;
+}
+
+.footer{
+    color: rgb(240, 240, 240);
+    height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.footer ul li{
+    list-style: none;
+    display: inline;
+}
+.footer ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+    background-color:rgb(32, 144, 189);
+    padding: 4px;
+    border-radius: 05px;
+    font-size: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    bottom: 3px;
+}
